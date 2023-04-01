@@ -1,0 +1,27 @@
+#Navbar-section {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    height: 70px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.Navbar-links {
+    color: white;
+    padding-top: 15px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+#Home {
+    margin-left: 25px;
+    font-size: 35px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.Nav-link {
+    margin-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}

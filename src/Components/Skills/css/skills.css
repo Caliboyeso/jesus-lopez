@@ -1,0 +1,144 @@
+.Skills-section {
+    height: 91vh;
+    background: radial-gradient(ellipse at bottom, #020202 0%, #6d36d3 100%);
+}
+
+.Skills-header {
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.carousel-flex {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stage {
+    box-sizing: border-box;
+    position: relative;
+    width: 120px;
+    height: 240px;
+    margin: 0vw 20vw;
+    perspective: 10000px;
+}
+
+#skills-carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateZ(-335px);
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    animation: spin 18s infinite linear;
+}
+
+.carousel_cell {
+    position: absolute;
+    width: 95px;
+    height: 160px;
+    left: 10px;
+    top: 10px;
+    border: 2px solid black;
+    line-height: 116px;
+    font-size: 18px;
+    font-weight: 300 !important;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 12px;
+    background-color: white;
+}
+
+p {
+    color: white;
+}
+
+.Skills-img {
+    height: 70px;
+    margin-top: 35px;
+}
+
+#Skills-btn {
+    margin-left: 520px;
+    margin-top: -50px;
+}
+
+.btnr {
+    margin: 50px 0px;
+    color: white;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    background-color:transparent;
+    border: none;
+    font-size: 25px;
+}
+
+.btnr:hover {
+    letter-spacing: 6px;
+    transition: all 0.5s;
+}
+
+@keyframes spin {
+    from {
+        transform: translateZ(-200px) rotateY(0);
+    }
+
+    to {
+        transform: translateZ(-200px) rotateY(-360deg);
+    }
+}
+
+.carousel_cell:nth-child(1) {
+    transform: rotateY(0deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(2) {
+    transform: rotateY(30deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(3) {
+    transform: rotateY(60deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(4) {
+    transform: rotateY(90deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(5) {
+    transform: rotateY(120deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(6) {
+    transform: rotateY(150deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(7) {
+    transform: rotateY(180deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(8) {
+    transform: rotateY(210deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(9) {
+    transform: rotateY(240deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(10) {
+    transform: rotateY(270deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(11) {
+    transform: rotateY(300deg) translateZ(200px);
+}
+
+.carousel_cell:nth-child(12) {
+    transform: rotateY(330deg) translateZ(200px);
+}

@@ -1,0 +1,24 @@
+.Footer-section {
+    background-color: black;
+    color: white;
+    border-top: 5px solid white;
+}
+
+.Footer-header {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Tilt Prism', cursive;
+    margin-top: -5px;
+}
+
+.Footer-links {
+    margin-left: 511px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.Linkedin, .Github, .Resume {
+    height: 40px;
+    margin-left: 15px; 
+    cursor: pointer;
+}

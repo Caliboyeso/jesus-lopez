@@ -1,0 +1,94 @@
+.Projects-section {
+    height: 95vh;
+    background: radial-gradient(ellipse at top, #020202 0%, #6d36d3 100%);
+}
+
+.Projects-header {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.Projects-disabled {
+    color: white;
+    margin-top: 20px;
+}
+
+.Projects-row1 {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+/* Card #1 */
+.Projects-card1 {
+    height: 375px;
+    border: 2px solid black;
+    width: 250px;
+    text-align: center;
+    margin-left: 100px;
+    background-color: black;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.Projects-card-pic {
+    width: 245px;
+    border-bottom: 5px solid black;
+}
+
+.Projects-card-header {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 7px;
+    margin-top: -9px;
+    font-size: 25px;
+}
+
+#visit-btn {
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #6d36d3;
+    color: white;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 25%;
+    border: none;
+}
+
+#source-btn {
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #6d36d3;
+    color: white;
+    width: 95px;
+    cursor: pointer;
+    border-radius: 25%;
+    border: none;
+}
+
+/* Card #2 */
+#Chilangos-pic {
+    height: 250px;
+}
+
+
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){
+        .Projects-section {
+            background: none;
+            background-color: green;
+        }
+
+        .Card {
+            margin-left: 68px;
+        }
+    } 
