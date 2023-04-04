@@ -21,6 +21,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "navbar": "^2.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
@@ -28,6 +29,7 @@
     "react-scripts": "^5.0.1",
     "react-sticky-nav": "^4.0.6"
   },
+  "stack": "heroku-22",
   "keywords": [],
   "browserslist": {
     "production": [
