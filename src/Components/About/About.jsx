@@ -19,8 +19,8 @@ const About = () => {
                 <div className='About-me-main'>
                     <p className='About-me-message'>
                         Hello, my name is Jesus Lopez and I am a self-taught 
-                        web developer located in Antioch, CA. I attend
-                         Diablo Valley College where I'm currently in the process 
+                        web developer located in Antioch, CA. I currently go to
+                         Diablo Valley College where I am in the process 
                          of getting my Associate of Science in Computer Information 
                          Systems. 
                     </p>
