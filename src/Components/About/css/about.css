@@ -83,8 +83,7 @@
 
         .About-section {
             height: 145vh;
-            background: none;
-            background-color: purple;
+            background: radial-gradient(ellipse at top, #020202 0%, #6d36d3 100%);
         }
 
         .About-header {

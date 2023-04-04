@@ -10,31 +10,45 @@ const NavBar = () => {
 
     // About Navbar
     const AboutNavbar = () => {
+        // Desktop - 1920px
         if (window.matchMedia("(min-width: 1920px)").matches) {
             window.scrollTo({top: 905, behavior: "smooth"});
+        // Desktop - 1280px
         } else if (window.matchMedia("(min-width: 1280px)").matches) {
             window.scrollTo({top: 695, behavior: "smooth"});
+        // iPhone 13 Pro - 390px
         } else {
-            window.scrollTo({top: 695, behavior: "smooth"});
+            window.scrollTo({top: 745, behavior: "smooth"});
         }
     };
 
     // Skills Navbar
     const SkillsNavbar = () => {
+        // Desktop - 1920px
         if (window.matchMedia('(min-width: 1920px)').matches) {
             window.scrollTo({top: 905, behavior: 'smooth'});
+            // Laptop - 1280px
         } else if (window.matchMedia('(min-width: 1280px)').matches) {
             window.scrollTo({top: 1380, behavior: 'smooth'});
+            // iPhone 13 Pro - 390px
+        } else {
+            window.scrollTo({top: 1800, behavior: 'smooth'});
         }
     }
 
     // Projects Navbar
     const ProjectsNavbar = () => {
+        // Desktop - 1920px
         if (window.matchMedia('(min-width: 1920px)').matches) {
             window.scrollTo({top: 905, behavior: 'smooth'});
+            // Laptop - 1280px
         } else if (window.matchMedia('(min-width: 1280px)').matches) {
             window.scrollTo({top: 2010, behavior: 'smooth'});
+            // iPhone 13 Pro - 390px
+        } else {
+            window.scrollTo({top: 2480, behavior: 'smooth'});
         }
+    
     }
 
     return (

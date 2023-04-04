@@ -68,7 +68,6 @@
     and (min-width: 390px) 
     and (max-width: 844px){ 
       .Home-section {
-        background:none;
-        background-color: red;
+        background: radial-gradient(ellipse at bottom, #020202 0%, #6d36d3 100%);
       }
     }

@@ -25,3 +25,24 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){ 
+
+        .Navbar-section {
+            width: 100%;
+        }
+
+        .Navbar-links {
+            font-size: 15px;
+            margin-left: -20px;
+        }
+
+        .Nav-link {
+            font-size: 20px;
+        }
+
+    }

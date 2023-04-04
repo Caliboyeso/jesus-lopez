@@ -142,3 +142,19 @@ p {
 .carousel_cell:nth-child(12) {
     transform: rotateY(330deg) translateZ(200px);
 }
+
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){ 
+
+        .stage {
+            perspective: 700px;
+        }
+
+        #Skills-btn {
+            margin-left: 75px;
+        }
+
+    }

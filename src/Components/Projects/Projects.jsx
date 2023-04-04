@@ -16,7 +16,7 @@ const Projects = () => {
                 {/* Card #1 - 209 Stay Sharp Barbershop */}
                 <div className='Projects-card1'>
                     <img className='Projects-card-pic' alt='stay-sharp' src={StaySharp} />
-                    <h3 className='Projects-card-header'>Stay Sharp Barbershop</h3>
+                    <h3 className='Projects-card-header' id='Card1-header'>Stay Sharp Barbershop</h3>
                     <h3 className='Projects-disabled'>In working progress...</h3>
                     {/* <button className='card-button' id='visit-btn'>Visit</button>
                     <button className='card-button' id='source-btn'>Source</button> */}

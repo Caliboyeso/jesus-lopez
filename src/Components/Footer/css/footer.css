@@ -22,3 +22,16 @@
     margin-left: 15px; 
     cursor: pointer;
 }
+
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){ 
+
+        .Footer-links {
+            display: inline-flex;
+            margin-left: 63px;
+        }
+
+    }
