@@ -63,11 +63,22 @@
     }
   }
 
-/* 2778x1284 pixels at 458ppi */
+/* Media Query iPhone 13 Pro */
 @media screen 
     and (min-width: 390px) 
     and (max-width: 844px){ 
       .Home-section {
         background: radial-gradient(ellipse at bottom, #020202 0%, #6d36d3 100%);
       }
+    }
+
+
+
+/* Media Query iPhone 14 Pro */
+@media screen 
+    and (min-width: 393px) 
+    and (max-width: 852px){ 
+
+      
+
     }
