@@ -7,10 +7,16 @@ const Home = () => {
         if (window.matchMedia('(min-width: 1280px)').matches) {
             window.scrollTo({top: 695, behavior: 'smooth'});
             // iPhone 13 Pro - 390px
+        } else if (window.matchMedia('(min-width: 430px)').matches){
+            window.scrollTo({top: 850, behavior: 'smooth'});
+        } else if (window.matchMedia('(min-width: 428px)').matches){
+            window.scrollTo({top: 850, behavior: 'smooth'});  
         } else if (window.matchMedia('(min-width: 393px)').matches) {
-            window.scrollTo({top: 755, behavior: 'smooth'});
+            window.scrollTo({top: 850, behavior: 'smooth'});
         } else if (window.matchMedia('(min-width: 390px)').matches) {
             window.scrollTo({top: 745, behavior: 'smooth'});
+        } else {
+            window.scrollTo({top: 800, behavior: 'smooth'});
         }
     }
     return (
