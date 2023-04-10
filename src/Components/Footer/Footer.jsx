@@ -3,6 +3,7 @@ import './css/footer.css';
 import Linkedin from '../img/linkedin.png';
 import Github from '../img/github.png';
 import Resume from '../img/resume.png';
+import ChuyResume from '../img/chuy-resume.docx';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
             <div className='Footer-links'>
             <a className='Linkedin' href='https://www.linkedin.com/in/jesuslopez-dev/' target='_blank'><img className='Linkedin' alt='Linkedin' src={Linkedin} /></a>
             <a className='Github' href='https://github.com/Caliboyeso?tab=repositories' target='_blank'><img className='Github' alt='Github' src={Github} /></a>
-            <a className='Resume' href='' target='_blank'><img className='Resume' alt='Resume' src={Resume} /></a>
+            <a className='Resume' href={ChuyResume} target='_blank'><img className='Resume' alt='Resume' src={Resume} /></a>
             </div>
         </div>
     )

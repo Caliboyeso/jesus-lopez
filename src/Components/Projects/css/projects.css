@@ -57,7 +57,7 @@
     width: 75px;
     cursor: pointer;
     border-radius: 25%;
-    border: none;
+    border: 1px solid white;
 }
 
 #source-btn {
@@ -71,7 +71,13 @@
     width: 95px;
     cursor: pointer;
     border-radius: 25%;
-    border: none;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+#Projects-link {
+    text-decoration: none;
+    color: white;
 }
 
 /* Card #2 */

@@ -37,6 +37,7 @@
 .Home-btn {
     font-family: 'Tilt Prism', cursive;
     border-radius: 25%;
+    width: 150px;
     margin-top: 50px;
     cursor: pointer;
     background-color: black;
@@ -45,7 +46,11 @@
     font-size: 17px;
     border: 1px solid white;
     position: relative;
-    animation: typewriter 1s steps(44) 1s 1 normal both
+    display: inline-block;
+    animation-name: spin, depth;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
 }
 
 .Home-btn:hover {
@@ -54,14 +59,33 @@
     border: 5px solid black;
 }
 
-@keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 150px;
-    }
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
   }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
+
+@keyframes depth {
+  0% {
+    text-shadow: 0 0 black;
+  }
+  25% {
+    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+  }
+  50% {
+    text-shadow: 0 0 black;
+  }
+  75% {
+    text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
+      -5px 0 black;
+  }
+  100% {
+    text-shadow: 0 0 black;
+  }
+}
 
 /* Media Query iPhone 13 Pro */
 @media screen 

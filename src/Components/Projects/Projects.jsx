@@ -16,10 +16,9 @@ const Projects = () => {
                 {/* Card #1 - 209 Stay Sharp Barbershop */}
                 <div className='Projects-card1'>
                     <img className='Projects-card-pic' alt='stay-sharp' src={StaySharp} />
-                    <h3 className='Projects-card-header' id='Card1-header'><a href="https://staysharp-barbershop.herokuapp.com/" target="_blank">Stay Sharp Barbershop</a></h3>
-                    <h3 className='Projects-disabled'>In working progress...</h3>
-                    {/* <button className='card-button' id='visit-btn'>Visit</button>
-                    <button className='card-button' id='source-btn'>Source</button> */}
+                    <h3 className='Projects-card-header' id='Card1-header'>Stay Sharp Barbershop</h3>
+                    <button className='Projects-button' id='visit-btn'><a id="Projects-link" href="https://staysharp-barbershop.herokuapp.com/" target="_blank">Visit</a></button>
+                    <button className='Projects-button' id='source-btn'><a id="Projects-link" href="https://github.com/Caliboyeso/staysharp-barbershop" target="_blank">Source</a></button>
                 </div>
                 {/* Card #2 - El Chilango */}
                 <div className='Projects-card1'>
