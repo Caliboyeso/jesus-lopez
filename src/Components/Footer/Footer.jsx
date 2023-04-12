@@ -1,8 +1,8 @@
 import React from 'react';
 import './css/footer.css';
-import Linkedin from '../img/linkedin.png';
+import Linkedin from '../img/linkedin4.png';
 import Github from '../img/github.png';
-import Resume from '../img/resume.png';
+import Resume from '../img/resume1.png';
 import ChuyResume from '../img/chuy-resume.docx';
 
 const Footer = () => {
