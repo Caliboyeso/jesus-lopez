@@ -107,3 +107,24 @@
             font-size: 24px;
         }
     } 
+
+
+
+/* Media Query - Desktop */
+@media screen and (min-width: 1920px) {
+    .Projects-section {
+        height: 80vh;
+    }
+
+    .Projects-header {
+        padding-top: 25px;
+    }
+
+    .Projects-row1 {
+        margin-left: 180px;
+    }
+
+    .Projects-card1 {
+        margin-left: 203px;
+    }
+}

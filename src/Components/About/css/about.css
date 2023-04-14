@@ -110,3 +110,25 @@
         opacity:inherit;
       }
     }
+
+
+/* Media Query - Desktop */
+@media screen and (min-width: 1920px) {
+    .About-header {
+        padding-top: 40px;
+    }
+
+    .About-pic {
+        height: 350px;
+        margin-left: 200px;
+    }
+
+    .About-contact {
+        margin-top: 170px;
+        margin-right: 300px;
+    }
+
+    .About-me-main {
+        margin-left: 680px;
+    }
+}

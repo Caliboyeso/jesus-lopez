@@ -122,3 +122,12 @@
     background-color: blue;
   }
 }
+
+
+
+/* Media Query - Desktop */
+@media screen and (min-width: 1920px) {
+  .Home-btn {
+    margin-top: 150px;
+  }
+}

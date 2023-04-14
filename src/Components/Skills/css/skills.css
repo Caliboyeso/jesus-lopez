@@ -158,3 +158,17 @@ p {
         }
 
     }
+
+
+/* Media Query - Desktop */
+@media screen and (min-width: 1920px) {
+    .stage {
+        perspective: 500vh;
+    }
+
+    #Skills-btn {
+        margin-left: 765px;
+        font-size: 40px;
+        width: 400px;
+    }
+}

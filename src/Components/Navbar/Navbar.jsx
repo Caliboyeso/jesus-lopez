@@ -12,7 +12,7 @@ const NavBar = () => {
     const AboutNavbar = () => {
         // Desktop - 1920px
         if (window.matchMedia("(min-width: 1920px)").matches) {
-            window.scrollTo({top: 905, behavior: "smooth"});
+            window.scrollTo({top: 980, behavior: "smooth"});
         // Desktop - 1280px
         } else if (window.matchMedia("(min-width: 1280px)").matches) {
             window.scrollTo({top: 695, behavior: "smooth"});
@@ -26,7 +26,7 @@ const NavBar = () => {
     const SkillsNavbar = () => {
         // Desktop - 1920px
         if (window.matchMedia('(min-width: 1920px)').matches) {
-            window.scrollTo({top: 905, behavior: 'smooth'});
+            window.scrollTo({top: 1900, behavior: 'smooth'});
             // Laptop - 1280px
         } else if (window.matchMedia('(min-width: 1280px)').matches) {
             window.scrollTo({top: 1380, behavior: 'smooth'});
@@ -40,7 +40,7 @@ const NavBar = () => {
     const ProjectsNavbar = () => {
         // Desktop - 1920px
         if (window.matchMedia('(min-width: 1920px)').matches) {
-            window.scrollTo({top: 905, behavior: 'smooth'});
+            window.scrollTo({top: 2900, behavior: 'smooth'});
             // Laptop - 1280px
         } else if (window.matchMedia('(min-width: 1280px)').matches) {
             window.scrollTo({top: 2010, behavior: 'smooth'});

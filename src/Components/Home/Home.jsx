@@ -3,8 +3,11 @@ import './css/home.css';
 
 const Home = () => {
     const HomeButton = () => {
-        // Laptop - 1280px
-        if (window.matchMedia('(min-width: 1280px)').matches) {
+        // Desktop - 1920px
+        if (window.matchMedia('(min-width: 1920px)').matches) {
+            window.scrollTo({top: 975, behavior: 'smooth'});
+        }  // Laptop - 1280px
+        else if (window.matchMedia('(min-width: 1280px)').matches) {
             window.scrollTo({top: 695, behavior: 'smooth'});
             // iPhone 13 Pro - 390px
         } else if (window.matchMedia('(min-width: 430px)').matches){
